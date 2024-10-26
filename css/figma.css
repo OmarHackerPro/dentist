@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+.card {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card img {
+    height: 300px;
+    width: 470px;
+    object-fit: contain;
+    margin: 15px;
+}
+
+.card .card_content p {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: 600;
+
+}
+
+.card .card_content span {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.card .card_content span:last-of-type{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+}

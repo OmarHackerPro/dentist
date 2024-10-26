@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main .section1 .first {
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 600px;
+    margin-left: 575px;
+}
+
+.main  .section1 .second {
+    font-weight: 200;
+    font-size: 50px;
+    margin-left: 575px;
+    max-width: 900px;
+}
+
+.main .section1 .third {
+    font-size: 32px;
+    font-weight: 200;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section1 .line {
+    
+    height: 1px;
+    width: 850px;
+    background-color: grey;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section2 .first {
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 700px;
+    margin-left: 575px;
+}
+
+.main .section2 .second {
+    font-size: 32px;
+    font-weight: 200;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section2 .line {
+    height: 1px;
+    width: 850px;
+    background-color: grey;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section3 .first {
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 700px;
+    margin-left: 575px;
+}
+
+.main .section3 .second {
+    font-weight: 200;
+    font-size: 50px;
+    margin-left: 575px;
+    max-width: 975px;
+    line-height: 60px;
+}
+
+.main .section3 .third {
+    font-size: 32px;
+    font-weight: 200;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section3 .line {
+    height: 1px;
+    width: 850px;
+    background-color: grey;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section4 .first {
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 600px;
+    margin-left: 575px;
+}
+
+.main .section4 .second {
+    font-size: 50px;
+    font-weight: 200;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section4 .third {
+    font-size: 32px;
+    font-weight: 200;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section4 .line {
+    height: 1px;
+    width: 850px;
+    background-color: grey;
+    margin-left: 575px;
+    margin-bottom: 50px;
+}
+
+.main .section4 button {
+    background-color: darkcyan;
+    padding: 30px 50px;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 500;
+    margin-left: 1100px;
+    border-color: white;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.footer img{
+    margin-top: 50px;
+    margin-left: 730px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 700px;
+    margin-bottom: 100px;
+}

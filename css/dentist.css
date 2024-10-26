@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+header {
+    display: flex;
+    margin-bottom: 300px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin-top: 320px;
+    margin-left: 200px;
+    max-width: 400px;
+    line-height: 50px;
+}
+
+header p {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+header button {
+    padding: 20px 40px;
+    border-color: #ff724a;
+    color: #ff724a;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 800;
+    margin-left: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+header .write {
+    margin-right: 100px;
+}
+
+header img {
+    height: 700px;
+    width: 1000px;
+    margin-top: 200px;
+}
+
+main .about {
+    margin-bottom: 200px;
+}
+
+main .about h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+main .about p {
+    max-width: 570px;
+    margin-left: 500px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+main .about button {
+    padding: 20px 40px;
+    border-color: #ff724a;
+    color: white;
+    background-color: #ff724a;
+    border-radius: 10px;
+    font-weight: 800;
+    margin-left: 650px;
+    cursor: pointer;
+}
+
+main .team {
+    background-color: #ff724a;
+}
+
+main .team .title h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+main .team .title p {
+    color: white;
+    max-width: 570px;
+    margin-left: 570px;
+    margin-bottom: 100px;
+}
+
+main .line1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+main .team .line1 .bob {
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+main .team .line1 .bob img {
+    margin: 20px;
+}
+
+main .team .line1 .bob span {
+    margin-left: 30px;
+    display: block;
+    color: gray;
+}
+
+main .team .line1 .bob h1 {
+    margin-left: 30px;
+}
+
+main .team .line1 .bob p {
+    margin-left: 30px;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+main .line1 .mary {
+    background-color: white;
+    margin-right: 50px;
+}
+
+main .line1 .mary img {
+    margin: 20px;
+}
+
+main .line1 .mary span {
+    display: block;
+    margin-left: 30px;
+    color: gray;
+}
+
+main .line1 .mary h1 {
+    margin-left: 30px;    
+}
+
+main .line1 .mary p {
+    margin-left: 30px;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+main .line1 .nick {
+    background-color: white;
+}
+
+main .line1 .nick img {
+    margin: 20px;
+}
+
+main .line1 .nick span {
+    display: block;
+    margin-left: 30px;
+    color: gray;
+}
+
+main .line1 .nick h1 {
+    margin-left: 30px;
+}
+main .line1 .nick p {
+    max-width: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+main .line2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+main .line2 .may {
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+main .line2 .may img {
+    margin: 20px;
+}
+
+main .line2 .may span {
+    display: block;
+    margin-left: 30px;
+    color: gray;
+}
+
+main .line2 .may h1 {
+    margin-left: 30px;
+}
+
+main .line2 .may p {
+    max-width: 300px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+main .line2 .betty {
+    background-color: white;
+    margin-right: 50px;
+}
+
+main .line2 .betty img {
+    margin: 20px;
+}
+
+main .line2 .betty span {
+    display: block;
+    color: gray;
+    margin-left: 30px;
+}
+
+main .line2 .betty h1 {
+    margin-left: 30px;
+}
+
+main .line2 .betty p {
+    max-width: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+main .line2 .adrian {
+    background-color: white;
+}
+
+main .line2 .adrian img {
+    margin: 20px;
+}
+
+main .line2 .adrian span {
+    margin-left: 30px;
+    color: gray;
+    display: block;
+}
+
+main .line2 .adrian h1 {
+    margin-left: 30px;
+}
+
+main .line2 .adrian p {
+    max-width: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+main .freepik {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+main .contact .talk {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+main .contact img {
+    margin-right: 30px;
+}
+
+main .contact .talk .message h1 {
+    font-size: 50px;
+}
+
+main .contact .talk .message p {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+main .contact .talk .message span {
+    color: #c0c0c0;;
+    margin-left: 15px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+main .contact .talk .message .line {
+    height: 2px;
+    width: 400px;
+    background-color: #c0c0c0;;
+}
+
+main .contact .talk .message .send {
+    margin-bottom: 100px;
+}
+
+main .contact .message .accept {
+    margin-top: 10px;
+}
+
+main .contact .talk .message button {
+    padding: 20px 200px;
+    background-color: #ff724a;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+main .contact .info {
+    display: flex;
+}
