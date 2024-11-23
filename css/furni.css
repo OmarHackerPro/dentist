@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: rgb(59, 93, 80);
+    margin-bottom: 200px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+header nav .furni p {
+    font-size: 35px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+header nav .info {
+    display: flex;
+    margin-left: 360px;
+}
+
+header nav .info span {
+    color: rgb(157, 174, 168);
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+header nav img {
+    object-fit: contain;
+    margin-right: 50px;
+}
+
+header .poster {
+    display: flex;
+}
+
+header .poster .design h1 {
+    color: #ffffff;
+    font-size: 60px;
+    margin-left: 100px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+header .poster .design p {
+    color: rgb(157, 174, 168);
+    max-width: 700px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+header .poster .design .shop {
+    border: none;
+    border-radius: 30px;
+    color: #000000;
+    background-color: #f9bf29;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+header .poster .design .explore {
+    border-color: rgb(157, 174, 168);
+    background-color: rgb(59, 93, 80);
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+header .poster img {
+    height: 500px;
+    width: 800px;
+}
+
+main {
+    background-color: #f8f9fa;
+}
+
+main .material {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+main .material .craft h1 {
+    font-size: 40px;
+    margin-left: 100px;
+    max-width: 400px;
+}
+
+main .material .craft p {
+    color: rgb(115, 107, 107);
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+main .material .craft button {
+    margin-left: 100px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+main .material .chair {
+    display: flex;
+}
+
+main .material .chair img {
+    height: 400px;
+    width: 970px;
+}
+
+main .choose .title h1 {
+    font-size: 36px;
+    font-weight: 450;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+main .choose .title p {
+    color: rgb(115, 107, 107);
+    margin-left: 100px;
+    max-width: 770px;
+    margin-bottom: 50px;
+}
+
+main .choose .line1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+main  .choose .line1 .shipping img {
+    margin-left: 50px;
+}
+
+main  .choose .line1 .shipping h1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+main  .choose .line1 .shipping p {
+    max-width: 400px;
+    margin-left: 50px;
+}
+
+main  .choose .line1 .shop img {
+    margin-left: 30px;
+}
+
+main  .choose .line1 .shop h1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+main  .choose .line1 .shop p {
+    margin-left: 30px;
+    max-width: 400px;
+}
+
+main  .choose .line2 {
+    display: flex;
+}
+
+main  .choose .line2 .support img {
+    margin-left: 100px;
+}
+
+main  .choose .line2 .support h1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+main .choose .line2 .support p {
+    max-width: 400px; 
+    margin-left: 50px;
+}
+
+main .choose .line2 .return img {
+    margin-left: 30px;
+}    
+ .choose .line2 .return h1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+main .choose .line2 .return p {
+    max-width: 400px;
+    margin-left: 30px;
+}

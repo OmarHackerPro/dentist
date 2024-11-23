@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2432839/images/portrait-tattooed-male-barber-holds-4.jpg);
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+    background-position: top;
+    margin-bottom: 70px;
+}
+
+header .title {
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .title h1 {
+    text-align: center;
+    margin-top: 200px;
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 300px;
+}
+
+header .title p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+header .title button {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px 30px;
+    background: transparent;
+    border: 2px solid white;
+    margin-left: 650px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+header .title span {
+    display: block;
+    margin-left: 680px;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 23px;
+    margin-bottom: 200px;
+}
+
+main .barbers h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}

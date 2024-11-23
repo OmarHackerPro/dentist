@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav img {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+header {
+    position: relative;
+}
+
+header .write {
+    margin-left: 200px;
+    margin-top: 100px;
+    max-width: 400px;
+    margin-bottom: 366px;
+}
+
+header .write h1 {
+    color: #2544b8;
+    font-size: 50px; 
+}
+
+header .write span {
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+header .write button {
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #616be8;
+    border-radius: 30px;
+}
+
+header img {
+    height: 650px;
+    width: 640px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+main .info {
+    display: flex;
+}
+
+main .info .research {
+    background-color: #2544b8;
+    max-width: 500px;
+}
+
+main .info .research h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+main .info .research p {
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main .info .research img {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+main .strategy {
+    background-color: #616be8;
+    max-width: 500px;
+}
+
+main .strategy h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+main .strategy p {
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main .strategy img {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+main .design {
+    background-color:#36b1e1 ;
+    max-width: 500px;
+}
+
+main .design h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+main .design p {
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main .design img {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+main .feature .title p {
+    color: #2544b8;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+main .feature .title h1 {
+    color: #2544b8;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main .feature .cards {
+    display: flex;
+}
+
+main  .feature .cards .media {
+    max-width: 300px;
+    margin-left: 250px;
+}
+
+main .feature .cards .media h1 {
+    font-size: 20px;
+    color: #2544b8;
+    letter-spacing: 6px;
+    margin-left: 20px;
+}
+
+main .feature .cards .media p {
+    color: #3b4776;
+}
+
+main .feature .cards .media button {
+    border: none;
+    color: #ffffff;
+    background-color: #2544b8;
+    font-weight: 350;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 10px 40px;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+main .feature .cards .digit {
+    text-align: center;
+    max-width: 360px;
+}
+
+main .feature .cards .digit h1 {
+    font-size: 20px;
+    color: #2544b8;
+    letter-spacing: 6px;
+    margin-left: 20px;
+}
+
+main .feature .cards .digit p {
+    color: #3b4776;
+}
+
+main .feature .cards .digit button {
+    border: none;
+    color: #ffffff;
+    background-color: #2544b8;
+    font-weight: 350;
+    margin-top: 40px;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 10px 40px;
+    letter-spacing: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+main .feature .cards .seo {
+    max-width: 300px;
+    margin-right: 200px;
+    margin-top: 35px;
+}
+
+main .feature .cards .seo h1 {
+    font-size: 20px;
+    color: #2544b8;
+    letter-spacing: 6px;
+    margin-left: 20px;
+}
+
+main .feature .cards .seo p {
+    color: #3b4776;
+    margin-left: 20px;
+}
+
+main .feature .cards .seo button {
+    border: none;
+    color: #ffffff;
+    background-color: #2544b8;
+    font-weight: 350;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 10px 40px;
+    letter-spacing: 5px;
+    margin-left: 75px;
+    cursor: pointer;
+}

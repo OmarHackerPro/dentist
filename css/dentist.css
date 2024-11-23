@@ -137,7 +137,7 @@ main .line1 .mary span {
 }
 
 main .line1 .mary h1 {
-    margin-left: 30px;    
+    margin-left: 30px;
 }
 
 main .line1 .mary p {
@@ -163,6 +163,7 @@ main .line1 .nick span {
 main .line1 .nick h1 {
     margin-left: 30px;
 }
+
 main .line1 .nick p {
     max-width: 300px;
     margin-left: 30px;
@@ -274,7 +275,8 @@ main .contact .talk .message p {
 }
 
 main .contact .talk .message span {
-    color: #c0c0c0;;
+    color: #c0c0c0;
+    ;
     margin-left: 15px;
     display: block;
     margin-bottom: 20px;
@@ -283,7 +285,8 @@ main .contact .talk .message span {
 main .contact .talk .message .line {
     height: 2px;
     width: 400px;
-    background-color: #c0c0c0;;
+    background-color: #c0c0c0;
+    ;
 }
 
 main .contact .talk .message .send {
